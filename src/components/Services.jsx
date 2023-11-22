@@ -93,7 +93,7 @@ const Services = () => {
       </div>
       <div className="flex flex-col items-center text-2xl md:text-6xl justify-center w-full">
         <div className="py-16 flex relative group overflow-hidden w-full items-center justify-between border-t-2 border-t-gray-800">
-          UI/UX Design{" "}
+        Penetration Testing{" "}
           {/* Arrow icon */}
           <span>
             <svg
@@ -114,7 +114,7 @@ const Services = () => {
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
         <div className="py-16 flex w-full relative group overflow-hidden items-center justify-between border-t-2 border-t-gray-800">
-          Web Design{" "}
+        Vulnerability Assessment{" "}
           {/* Arrow icon */}
           <span>
             <svg
@@ -135,7 +135,7 @@ const Services = () => {
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
         <div className="py-16 flex w-full relative group overflow-hidden items-center justify-between border-t-2 border-t-gray-800">
-          Web Development{" "}
+          Threat Emulation{" "}
           {/* Arrow icon */}
           <span>
             <svg
@@ -156,7 +156,7 @@ const Services = () => {
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
         <div className="py-16 flex w-full relative group overflow-hidden items-center justify-between border-t-2 border-t-gray-800">
-          App Development{" "}
+          Red Teaming{" "}
           {/* Arrow icon */}
           <span>
             <svg
