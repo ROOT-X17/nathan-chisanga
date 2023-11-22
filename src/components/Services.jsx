@@ -113,7 +113,7 @@ const Services = () => {
           </span>
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
-        <div className="py-16 flex w-full relative group items-center justify-between border-t-2 border-t-gray-800">
+        <div className="py-16 flex w-full relative group overflow-hidden items-center justify-between border-t-2 border-t-gray-800">
           Web Design{" "}
           {/* Arrow icon */}
           <span>
@@ -134,7 +134,7 @@ const Services = () => {
           </span>
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
-        <div className="py-16 flex w-full relative group items-center justify-between border-t-2 border-t-gray-800">
+        <div className="py-16 flex w-full relative group overflow-hidden items-center justify-between border-t-2 border-t-gray-800">
           Web Development{" "}
           {/* Arrow icon */}
           <span>
@@ -155,7 +155,7 @@ const Services = () => {
           </span>
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
-        <div className="py-16 flex w-full relative group items-center justify-between border-t-2 border-t-gray-800">
+        <div className="py-16 flex w-full relative group overflow-hidden items-center justify-between border-t-2 border-t-gray-800">
           App Development{" "}
           {/* Arrow icon */}
           <span>
