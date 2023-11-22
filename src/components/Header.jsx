@@ -3,8 +3,7 @@ const Header = () => {
   return (
     <div className="items-center min-h-screen justify-center py-36 bg-[#0F1218] px-4 md:px-12 text-white relative w-full md:gap-4 grid">
       <div className="gap-2 grid grid-cols-1 md:grid-cols-3 w-full items-center justify-center">
-
-      {/* Name Left*/}
+        {/* Name Left*/}
         <div className="flex w-full text-gray-300 flex-col col-span-2">
           <h1 className="md:text-9xl text-5xl font-bold">
             NATHAN <span className="text-[#f6e500]">#</span>
@@ -12,10 +11,8 @@ const Header = () => {
           <h1 className="md:text-9xl text-5xl font-bold">CHISANGA</h1>
         </div>
 
-
         <div className="flex w-full group pt-4 md:pt-0 gap-4 flex-col col-span-1">
-
-        {/* Right side info */}
+          {/* Right side info */}
           <div className="relative p-2 group-hover:scale-105 transition-all transform overflow-hidden flex w-full rounded-full h-20 md:h-24 bg-slate-800">
             <img
               src={header}
@@ -76,7 +73,7 @@ const Header = () => {
         </div>
       </div>
 
-
+      {/* Dummy info */}
       <div className=" w-full gap-1 text-[#f6e500] md:gap-3 flex items-center">
         <div className=" font-medium rounded-full md:text-base text-sm py-2 px-3 md:px-4 border-2 border-[#f6e500] border-opacity-20">
           #Creative
@@ -84,7 +81,10 @@ const Header = () => {
         <div className=" font-medium rounded-full md:text-base text-sm py-2 px-3 md:px-4 border-2 border-[#f6e500] border-opacity-20">
           #Cyber Security
         </div>
+        {/* Divider */}
         <div className="h-1 rounded-full flex-1 bg-[#f6e500] bg-opacity-25"></div>
+
+        {/* Dots */}
         <div className="flex gap-1 md:gap-2 items-center">
           <div className="md:h-4 h-3 md:w-4 w-3 rounded-full bg-[#f6e500] bg-opacity-20"></div>
           <div className="md:h-4 h-3 md:w-4 w-3 rounded-full bg-[#f6e500] bg-opacity-30"></div>

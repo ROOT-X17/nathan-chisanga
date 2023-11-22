@@ -9,6 +9,7 @@ const Services = () => {
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-2 gap-4">
             <div className="flex gap-2 items-start rounded-full p-2 border-2 border-slate-700 text-slate-300 w-full">
+            {/* Globe icon */}
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -28,6 +29,7 @@ const Services = () => {
               <span>Design</span>
             </div>
             <div className="flex gap-2 items-start rounded-full p-2 border-2 border-slate-700 text-slate-300 w-full">
+            {/* Globe icon */}
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +46,10 @@ const Services = () => {
                   />
                 </svg>
               </span>
-              <span>Development</span>
+              <span>PenTesting</span>
             </div>
             <div className="flex gap-2 items-start rounded-full p-2 border-2 border-slate-700 text-slate-300 w-full">
+            {/* Globe icon */}
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,6 +69,7 @@ const Services = () => {
               <span>Testing</span>
             </div>
             <div className="flex gap-2 items-start rounded-full p-2 border-2 border-slate-700 text-slate-300 w-full">
+            {/* Globe icon */}
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,6 +94,7 @@ const Services = () => {
       <div className="flex flex-col items-center text-2xl md:text-6xl justify-center w-full">
         <div className="py-16 flex relative group overflow-hidden w-full items-center justify-between border-t-2 border-t-gray-800">
           UI/UX Design{" "}
+          {/* Arrow icon */}
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,8 +113,9 @@ const Services = () => {
           </span>
           <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
-        <div className="py-16 flex w-full items-center justify-between border-t-2 border-t-gray-800">
+        <div className="py-16 flex w-full relative group items-center justify-between border-t-2 border-t-gray-800">
           Web Design{" "}
+          {/* Arrow icon */}
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,9 +132,11 @@ const Services = () => {
               />
             </svg>
           </span>
+          <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
-        <div className="py-16 flex w-full items-center justify-between border-t-2 border-t-gray-800">
+        <div className="py-16 flex w-full relative group items-center justify-between border-t-2 border-t-gray-800">
           Web Development{" "}
+          {/* Arrow icon */}
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -145,9 +153,11 @@ const Services = () => {
               />
             </svg>
           </span>
+          <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
-        <div className="py-16 flex w-full items-center justify-between border-t-2 border-t-gray-800">
+        <div className="py-16 flex w-full relative group items-center justify-between border-t-2 border-t-gray-800">
           App Development{" "}
+          {/* Arrow icon */}
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -164,6 +174,7 @@ const Services = () => {
               />
             </svg>
           </span>
+          <img src={header} alt="ui/ux" loading="lazy" className="md:h-56 h-24 absolute hover:scale-90 group-hover:translate-y-0 delay-200 duration-300 -translate-y-[600px] transition-all transform right-10 w-24 md:w-56 md:right-24" />
         </div>
       </div>
     </div>
